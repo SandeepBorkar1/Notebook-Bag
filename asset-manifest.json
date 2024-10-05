@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/SandeepBorkar1/Notebook-Bag/static/css/main.bcd5bbff.css",
-    "main.js": "/SandeepBorkar1/Notebook-Bag/static/js/main.d1c61abb.js",
-    "index.html": "/SandeepBorkar1/Notebook-Bag/index.html",
-    "main.bcd5bbff.css.map": "/SandeepBorkar1/Notebook-Bag/static/css/main.bcd5bbff.css.map",
-    "main.d1c61abb.js.map": "/SandeepBorkar1/Notebook-Bag/static/js/main.d1c61abb.js.map"
+    "main.css": "/Notebook-Bag/static/css/main.bcd5bbff.css",
+    "main.js": "/Notebook-Bag/static/js/main.d1c61abb.js",
+    "index.html": "/Notebook-Bag/index.html",
+    "main.bcd5bbff.css.map": "/Notebook-Bag/static/css/main.bcd5bbff.css.map",
+    "main.d1c61abb.js.map": "/Notebook-Bag/static/js/main.d1c61abb.js.map"
   },
   "entrypoints": [
     "static/css/main.bcd5bbff.css",
