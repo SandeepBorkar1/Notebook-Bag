@@ -1,0 +1,36 @@
+.note{
+    position: relative;
+    padding: 25px;
+    height: 240px;
+    width: 240px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.note .delete-icon {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease; /* Smooth animation on click */
+  }
+  .delete-icon:hover{
+    opacity: 0.8;
+    transform:scale(1.1) ;
+  }
+  
+
+  .note-input{
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+
+  }

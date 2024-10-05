@@ -1,0 +1,21 @@
+[
+    {
+      "id": 1,
+      "text": "This is my first note",
+      "time": "10:30 AM",
+      "color": "#f4f4f4"
+    },
+    {
+      "id": 2,
+      "text": "This is my second note",
+      "time": "11:00 AM",
+      "color": "#ffcc00"
+    },
+    {
+      "id": 3,
+      "text": "This is my third note",
+      "time": "12:00 PM",
+      "color": "#99ccff"
+    }
+  ]
+  

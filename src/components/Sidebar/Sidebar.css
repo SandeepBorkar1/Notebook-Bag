@@ -1,0 +1,83 @@
+/* Sidebar Container */
+.Sidebar {
+    width: 250px;
+    height: 100vh; /* Full height */
+    background-color: #f0f0f0;
+    padding: 20px;
+    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Plus icon styling */
+  .Sidebar .plus-icon {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease; /* Smooth animation on click */
+  }
+  
+  /* Rotate plus icon when the list is open */
+  .sidebar_list_active .plus-icon {
+    transform: rotate(30deg); /* Rotate the plus icon */
+  }
+  
+  /* Sidebar List */
+  .sidebar_list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: max-height 0.5s ease; /* Smooth transition */
+    max-height: 0; /* Hide list initially */
+    overflow: hidden; /* Hide items beyond the height */
+  }
+  
+  /* When active, expand the sidebar list */
+  .sidebar_list_active {
+    max-height: 300px; /* Adjust this height based on the number of items */
+  }
+  .timepass {
+    max-height: 50px;
+    overflow: hidden; /* Ensures that content beyond max-height is hidden */
+    
+  }
+  
+  .timepass_active {
+    max-height: 200px; /* Expands the height */
+  }
+  
+  
+  /* Sidebar list items */
+  .sidebar_list_item {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%; /* Circular items */
+    margin-bottom: 15px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+  }
+  
+  .sidebar_list_item:hover {
+    transform: scale(1.1); /* Slightly enlarge on hover */
+  }
+  
+  /* Add new note button styling */
+  .sidebar_list_items {
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: #e0e0e0;
+    border-radius: 10px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .sidebar_list_items:hover {
+    background-color: #d0d0d0; /* Change background on hover */
+  }
+  
